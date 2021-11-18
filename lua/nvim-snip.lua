@@ -1,4 +1,4 @@
-local snips
+local snips = {}
 
 function snips.snip()
   local current_line = vim.api.nvim_get_current_line()
