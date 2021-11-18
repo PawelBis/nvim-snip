@@ -6,3 +6,5 @@ function snips.snip()
 
   vim.api.nvim_buf_set_lines(0, cursor_line+1, cursor_line+1, 0, current_line)
 end
+
+return snips
